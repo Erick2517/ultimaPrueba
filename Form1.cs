@@ -16,5 +16,14 @@ namespace ultimaPrueba
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// se agrega documentacion y boton 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Alert");
+        }
     }
 }
